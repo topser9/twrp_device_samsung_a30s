@@ -9,7 +9,7 @@ setup envirnoment
 `. build/envsetup.sh`
 
 then prepare
-`lunch omni_a30sxx-eng`
+`lunch omni_a30s-eng`
 
 make the image
 `mka recoveryimage`
