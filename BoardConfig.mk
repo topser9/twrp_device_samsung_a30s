@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/samsung/a30s
 
+# OTA Assert
+TARGET_OTA_ASSERT_DEVICE := a30s,a30sxx
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -55,7 +58,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 -
 
 # Platform
 BOARD_VENDOR := samsung
-TARGET_BOARD_PLATFORM := universal7904
+TARGET_BOARD_PLATFORM := universal7885
 TARGET_BOARD_PLATFORM_GPU := Mali-G71 MP2
 
 # Filesystem
